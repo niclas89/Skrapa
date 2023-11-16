@@ -1,0 +1,963 @@
+
+<!DOCTYPE HTML>
+
+	
+		
+		
+		
+		Sandvik Group
+		
+		
+		
+		
+
+					
+					
+					
+					
+
+		
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+
+		
+			
+		
+
+				
+
+		
+!function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{src: "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js", crossOrigin: "anonymous", cfg: { disableFlushOnBeforeUnload: true, instrumentationKey:'781c9b75-7372-4267-85c2-aaa9548a0223' }});
+
+
+
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      // Default ad_storage to 'denied'.
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied', 'ad_storage': 'denied', 'functionality_storage': 'denied', 'personalization_storage':'denied', 'security_storage':'granted', 'wait_for_update': 500 });			
+				(function (w, d, s, l, i) {
+					w[l] = w[l] || [];
+					w[l].push({
+						'gtm.start': new Date().getTime(),
+						event: 'gtm.js'
+					});
+					var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s),
+						dl = l != 'dataLayer' ? '&l=' + l : '';
+					j.async = true;
+					j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+					f.parentNode.insertBefore(j, f);
+				})(window, document, 'script', 'dataLayer', 'GTM-NWP29B');
+			
+	
+	
+			
+				<iframe src="//www.googletagmanager.com/ns.html?id=GTM-NWP29B" title="Google Tag Manager iframe" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+			
+
+		Jump to content
+
+		
+		
+
+
+
+
+
+
+
+	
+		
+				
+					Du besöker just nu vår webbplats på svenska. Vill du byta till vår engelskspråkiga webbplats som har mer omfattande information?
+				
+		
+		
+
+
+
+
+
+	
+		Byt språk
+	
+
+
+			
+			
+				Close
+				
+
+
+	
+		
+	
+
+			
+
+		
+	
+
+
+
+
+
+	
+		
+
+			
+					
+						
+					
+			
+			
+			
+					
+                            
+								
+									Produkter & Tjänster
+								
+							
+                            
+								
+									Investerare
+								
+							
+                            
+								
+									Karriär
+								
+							
+                            
+								
+									Nyheter & Media
+								
+							
+                            
+								
+									Stories
+								
+							
+                            
+								
+									Om oss
+								
+							
+					
+					
+							
+								Webbplatser
+							
+					
+			
+
+				
+					
+					
+						Search
+						
+							
+								
+							
+						
+					
+				
+		
+	
+
+
+	{"items":[{"label":"Produkter \u0026 Tj\u00E4nster","url":"/se/offerings/produkter--tj\u00E4nster/","newTab":false,"current":false,"isTeaser":false},{"label":"Investerare","url":"/se/investerare/","newTab":false,"current":false,"isTeaser":false,"col1":[{"label":"Investera i Sandvik","url":"/se/investerare/investera-i-sandvik/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Finansiell information","url":"/se/investerare/finansiell-information/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Uppl\u00E5ning och kreditv\u00E4rdering","url":"/se/investerare/uppl\u00E5ning-och-kreditv\u00E4rdering/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Aktien","url":"/se/investerare/sandvik-aktien/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Rapporter \u0026 Presentationer","url":"/se/investerare/rapporter-presentationer/","newTab":false,"current":false,"items":[],"isTeaser":false}],"col2":[{"label":"Kapitalmarknadsdag","url":"/se/investerare/kapitalmarknadsdag/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Bolagsstyrning","url":"/se/investerare/bolagsstyrning/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Riskhantering","url":"/se/investerare/riskhantering/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"F\u00F6rv\u00E4rv","url":"/se/investerare/f\u00F6rv\u00E4rv/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Alleima b\u00F6rsnotering","url":"/se/investerare/alleima-b\u00F6rsnotering/","newTab":false,"current":false,"items":[],"isTeaser":false}],"col3":[{"label":"Pressmeddelanden","url":"/se/nyheter-och-media/nyheter/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Kalender","url":"/se/investerare/kalender/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Kontaktpersoner","url":"/se/investerare/kontaktpersoner/","newTab":false,"current":false,"items":[],"isTeaser":false}],"col4":[{"label":"Kontakt","newTab":false,"current":false,"text":"\u003Cp\u003ELouise Tjeder, Chef f\u0026ouml;r Investor Relations\u003Cbr /\u003EE-post: \u003Ca href=\u0022mailto:louise.tjeder@sandvik.com\u0022\u003Elouise.tjeder@sandvik.com\u003C/a\u003E\u003Cbr /\u003ETel.: \u002B46 70 782 63 74\u003C/p\u003E","img":"/contentassets/4cfcee2fd61448f5b579575147e0e8ad/louise-tjeder.jpg?width=640\u0026height=360\u0026rmode=crop\u0026rsampler=bicubic\u0026compand=true\u0026quality=90\u0026v=1693248844\u0026hmac=a5ebba9f8d05cedbb0ce7ffa7338a900185fe00b2bbc73d31514487da2246ee7","isTeaser":true}],"dividers":[3]},{"label":"Karri\u00E4r","url":"/se/karri\u00E4r/","newTab":false,"current":false,"isTeaser":false,"col1":[{"label":"Lediga jobb","url":"/se/karri\u00E4r/jobb/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Jobbomr\u00E5den","url":"/se/karri\u00E4r/Jobbomr\u00E5den/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Student","url":"/se/karri\u00E4r/student/","newTab":false,"current":false,"items":[{"label":"Examensarbete","url":"/se/karri\u00E4r/student/examensarbete/","newTab":false,"current":false,"isTeaser":false},{"label":"Praktik","url":"/se/karri\u00E4r/student/praktik/","newTab":false,"current":false,"isTeaser":false},{"label":"Sommarjobb","url":"/se/karri\u00E4r/student/sommarjobb2/","newTab":false,"current":false,"isTeaser":false},{"label":"Sommarteknolog","url":"/se/karri\u00E4r/student/teknologpraktik/","newTab":false,"current":false,"isTeaser":false}],"isTeaser":false}],"col2":[{"label":"V\u00E5r kultur","url":"/se/karri\u00E4r/v\u00E5r-kultur/","newTab":false,"current":false,"items":[{"label":"Syfte och k\u00E4rnv\u00E4rden","url":"/se/karri\u00E4r/v\u00E5r-kultur/syfte-och-k\u00E4rnv\u00E4rden/","newTab":false,"current":false,"isTeaser":false},{"label":"M\u00E5ngfald och inkludering","url":"/se/karri\u00E4r/v\u00E5r-kultur/mangfald-och-inkludering/","newTab":false,"current":false,"isTeaser":false},{"label":"Utvecklas med oss","url":"/se/karri\u00E4r/v\u00E5r-kultur/utvecklas-med-oss/","newTab":false,"current":false,"isTeaser":false},{"label":"Ers\u00E4ttning och f\u00F6rm\u00E5ner","url":"/se/karri\u00E4r/v\u00E5r-kultur/ers\u00E4ttning-och-f\u00F6rm\u00E5ner/","newTab":false,"current":false,"isTeaser":false},{"label":"Distansarbete","url":"/se/karri\u00E4r/v\u00E5r-kultur/distansarbete/","newTab":false,"current":false,"isTeaser":false},{"label":"Medarbetarunders\u00F6kningar","url":"/se/karri\u00E4r/v\u00E5r-kultur/medarbetarunders\u00F6kningar/","newTab":false,"current":false,"isTeaser":false}],"isTeaser":false}],"col3":[{"label":"Varf\u00F6r Sandvik?","url":"/se/karri\u00E4r/v\u00E5r-kultur/","newTab":false,"current":false,"text":"\u003Cp\u003EL\u0026auml;s om sakerna som tilllsammans skiljer oss fr\u0026aring;n andra och som m\u0026ouml;jligg\u0026ouml;r viktiga skiften.\u003C/p\u003E","img":"/globalassets/group/careers/culture.jpg?width=640\u0026height=360\u0026rmode=crop\u0026rsampler=bicubic\u0026compand=true\u0026quality=90\u0026v=1692023746\u0026hmac=5d4e20de352789953335f4263285f37784deff44e32fb9bca0868d6366e63bce","isTeaser":true}],"col4":[],"dividers":[2,3]},{"label":"Nyheter \u0026 Media","url":"/se/nyheter-och-media/","newTab":false,"current":false,"isTeaser":false,"col1":[{"label":"Nyheter fr\u00E5n koncernen","url":"/se/nyheter-och-media/nyheter/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Aff\u00E4rsomr\u00E5desnyheter","url":"/se/nyheter-och-media/aff\u00E4rsomr\u00E5desnyheter/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Kontaktpersoner","url":"/se/nyheter-och-media/kontaktpersoner/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Pressmaterial","url":"/se/nyheter-och-media/pressmaterial/","newTab":false,"current":false,"items":[],"isTeaser":false}],"col2":[{"label":"Tidningen M\u00F6t Sandvik","url":"/se/nyheter-och-media/tidning/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Prenumeration","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Sociala medier","url":"/se/nyheter-och-media/sociala-medier/","newTab":false,"current":false,"items":[],"isTeaser":false}],"col3":[{"label":"Mediakontakt","newTab":false,"current":false,"text":"\u003Cp\u003EJohannes Hellstr\u0026ouml;m, Presschef\u003Cbr /\u003EEmail: \u003Ca href=\u0022mailto:johannes.hellstrom@sandvik.com\u0022\u003Ejohannes.hellstrom@sandvik.com\u003C/a\u003E\u003Cbr /\u003EPhone: \u002B46 70 721 10 08\u003C/p\u003E","img":"/globalassets/group/1.-general-blocks-and-images/portraits/johannes-hellstrom.jpg?width=640\u0026height=360\u0026rmode=crop\u0026rsampler=bicubic\u0026compand=true\u0026quality=90\u0026v=1693248341\u0026hmac=1b48ce95911814397709243b8384f741d4b3c2f9868fccbe8aed3f176bb44064","isTeaser":true}],"col4":[{"label":"Stories","url":"/en/stories/","newTab":false,"current":false,"text":"\u003Cp\u003EV\u0026aring;ra artiklar visar hur teknik, id\u0026eacute;er och m\u0026auml;nniskor m\u0026ouml;ts f\u0026ouml;r att skapa en b\u0026auml;ttre framtid. (Artiklarna \u0026auml;r p\u0026aring; engelska)\u003C/p\u003E","img":"/contentassets/cd7d7c090f1945c68da64eda35331364/ai_880.jpg?width=640\u0026height=360\u0026rmode=crop\u0026rsampler=bicubic\u0026compand=true\u0026quality=90\u0026v=1693311038\u0026hmac=16940d4f802f769b871e63844eb7440643986fa77d67a22e31eec812e5aa912e","isTeaser":true}]},{"label":"Stories","url":"/en/stories/","newTab":false,"current":false,"isTeaser":false},{"label":"Om oss","url":"/se/om-oss/","newTab":false,"current":false,"isTeaser":false,"col1":[{"label":"Sandvik i korthet","url":"/se/om-oss/sandvik-i-korthet/","newTab":false,"current":false,"items":[{"label":"Sandvik i siffror","url":"/se/om-oss/sandvik-i-korthet/sandvik-i-siffror/","newTab":false,"current":false,"isTeaser":false},{"label":"Aff\u00E4rsmodell","url":"/se/om-oss/sandvik-i-korthet/aff\u00E4rsmodell/","newTab":false,"current":false,"isTeaser":false},{"label":"Varum\u00E4rken","url":"/se/om-oss/sandvik-i-korthet/varum\u00E4rken/","newTab":false,"current":false,"isTeaser":false},{"label":"Sandvik worldwide","url":"/en/about-us/sandvik-at-a-glance/sandvik-worldwide/","newTab":false,"current":false,"isTeaser":false},{"label":"Historia","url":"/se/om-oss/sandvik-i-korthet/historia/","newTab":false,"current":false,"isTeaser":false},{"label":"Ledningssystem","url":"/se/om-oss/sandvik-i-korthet/ledningssystem/","newTab":false,"current":false,"isTeaser":false}],"isTeaser":false}],"col2":[{"label":"Syfte och strategiska m\u00E5l","url":"/se/om-oss/syfte-och-strategiska-m\u00E5l/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Expertis och innovation","url":"/se/om-oss/expertis-och-innovation/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Aff\u00E4rsomr\u00E5den","url":"/se/om-oss/affarsomraden/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Industrier","url":"/se/om-oss/industrier/","newTab":false,"current":false,"items":[],"isTeaser":false},{"label":"Bolagsstyrning","url":"/se/om-oss/bolagsstyrning/","newTab":false,"current":false,"items":[],"isTeaser":false}],"col3":[{"label":"H\u00E5llbarhet","url":"/se/om-oss/h\u00E5llbarhet/","newTab":false,"current":false,"items":[{"label":"H\u00E5llbara l\u00F6sningar","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbara-l\u00F6sningar/","newTab":false,"current":false,"isTeaser":false},{"label":"Netto noll","url":"/se/om-oss/h\u00E5llbarhet/nettonollutsl\u00E4pp/","newTab":false,"current":false,"isTeaser":false},{"label":"Cirkularitet","url":"/se/om-oss/h\u00E5llbarhet/cirkularitet/","newTab":false,"current":false,"isTeaser":false},{"label":"Ekosystem","url":"/se/om-oss/h\u00E5llbarhet/ekosystem/","newTab":false,"current":false,"isTeaser":false},{"label":"Ansvarsfullt f\u00F6retagande","url":"/se/om-oss/h\u00E5llbarhet/ansvarsfullt-f\u00F6retagande/","newTab":false,"current":false,"isTeaser":false},{"label":"M\u00E4nniskor och samh\u00E4llen","url":"/se/om-oss/h\u00E5llbarhet/m\u00E4nniskor-och-samh\u00E4llen/","newTab":false,"current":false,"isTeaser":false}],"isTeaser":false}],"col4":[{"newTab":false,"current":false,"items":[{"label":"Framtidens industri","url":"/se/om-oss/h\u00E5llbarhet/framtidens-industrier/","newTab":false,"current":false,"isTeaser":false},{"label":"M\u00E5l","url":"/se/om-oss/h\u00E5llbarhet/m\u00E5l/","newTab":false,"current":false,"isTeaser":false},{"label":"Globala \u00E5taganden och index","url":"/se/om-oss/h\u00E5llbarhet/globala-\u00E5taganden/","newTab":false,"current":false,"isTeaser":false},{"label":"Styrning och regelefterlevnad","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbarhetsstyrning/","newTab":false,"current":false,"isTeaser":false},{"label":"Dubbel v\u00E4sentlighetsanalys","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbarhetsstyrning/vasentlighetsanalys/","newTab":false,"current":false,"isTeaser":false},{"label":"Rapporter och nyckeltal","url":"/se/om-oss/h\u00E5llbarhet/rapporter-och-nyckeltal/","newTab":false,"current":false,"isTeaser":false}],"isTeaser":false}]}],"separate":[{"label":"Webbplatser","url":"/se/webbplatser/","newTab":false,"current":false,"isTeaser":false}],"logo":{"url":"/se/","alt":"Sandvik Group"},"search":{"popularSearches":"Popul\u00E4ra s\u00F6kningar","suggestedSearches":"Suggested searches","suggestedSearchesAPI":"/api/autocompleteapi/sv/search?query=","search":"Search","searchURL":"/se/s\u00F6k/","cancel":"cancel","clear":"clear","items":[]}}
+
+
+	{"menuLabel":"Main menu","more":"More","backTo":"Back to","pages":"pages","otherItems":[{"label":"Webbplatser","url":"/se/webbplatser/","id":134193,"current":false,"newTab":false}],"items":[{"label":"Karri\u00E4r","url":"/se/karri\u00E4r/","id":121572,"current":false,"newTab":false,"items":[{"label":"Lediga jobb","url":"/se/karri\u00E4r/jobb/","id":130145,"current":false,"newTab":false,"items":[{"label":"Recruitment process","url":"/se/karri\u00E4r/jobb/recruitment-process/","id":134588,"current":false,"newTab":false},{"label":"Vid intervju","url":"/se/karri\u00E4r/jobb/vid-intervju/","id":134592,"current":false,"newTab":false}]},{"label":"Jobbomr\u00E5den","url":"/se/karri\u00E4r/Jobbomr\u00E5den/","id":129843,"current":false,"newTab":false},{"label":"V\u00E5r kultur","url":"/se/karri\u00E4r/v\u00E5r-kultur/","id":129865,"current":false,"newTab":false,"items":[{"label":"Syfte och k\u00E4rnv\u00E4rden","url":"/se/karri\u00E4r/v\u00E5r-kultur/syfte-och-k\u00E4rnv\u00E4rden/","id":129869,"current":false,"newTab":false},{"label":"M\u00E5ngfald och inkludering","url":"/se/karri\u00E4r/v\u00E5r-kultur/mangfald-och-inkludering/","id":129888,"current":false,"newTab":false},{"label":"Utvecklas med oss","url":"/se/karri\u00E4r/v\u00E5r-kultur/utvecklas-med-oss/","id":129900,"current":false,"newTab":false},{"label":"Ers\u00E4ttning och f\u00F6rm\u00E5ner","url":"/se/karri\u00E4r/v\u00E5r-kultur/ers\u00E4ttning-och-f\u00F6rm\u00E5ner/","id":129904,"current":false,"newTab":false},{"label":"Distansarbete","url":"/se/karri\u00E4r/v\u00E5r-kultur/distansarbete/","id":129907,"current":false,"newTab":false},{"label":"Medarbetarunders\u00F6kningar","url":"/se/karri\u00E4r/v\u00E5r-kultur/medarbetarunders\u00F6kningar/","id":129985,"current":false,"newTab":false}]},{"label":"Student","url":"/se/karri\u00E4r/student/","id":129908,"current":false,"newTab":false,"items":[{"label":"Graduate program","url":"/se/karri\u00E4r/student/graduate-program/","id":129909,"current":false,"newTab":false},{"label":"Examensarbete","url":"/se/karri\u00E4r/student/examensarbete/","id":129920,"current":false,"newTab":false},{"label":"Sommarjobb","url":"/se/karri\u00E4r/student/sommarjobb2/","id":129984,"current":false,"newTab":false,"items":[{"label":"Fr\u00E5gor och svar","url":"/se/karri\u00E4r/student/sommarjobb2/fr\u00E5gor-och-svar/","id":137486,"current":false,"newTab":false}]},{"label":"Praktik","url":"/se/karri\u00E4r/student/praktik/","id":137246,"current":false,"newTab":false},{"label":"Teknikspr\u00E5nget","url":"/se/karri\u00E4r/student/teknikspranget/","id":137247,"current":false,"newTab":false},{"label":"Sommarteknolog","url":"/se/karri\u00E4r/student/teknologpraktik/","id":137250,"current":false,"newTab":false},{"label":"Female leader engineer","url":"/se/karri\u00E4r/student/female-leader-engineer/","id":137253,"current":false,"newTab":false}]},{"label":"Meet our people","url":"/se/karri\u00E4r/meet-our-people/","id":129987,"current":false,"newTab":false},{"label":"Where we are","url":"/se/karri\u00E4r/where-we-are/","id":134591,"current":false,"newTab":false},{"label":"Kontakt","url":"/se/karri\u00E4r/kontakt/","id":129994,"current":false,"newTab":false},{"label":"FAQ","url":"/se/karri\u00E4r/faq/","id":129996,"current":false,"newTab":false}]},{"label":"Investerare","url":"/se/investerare/","id":121571,"current":false,"newTab":false,"items":[{"label":"Investera i Sandvik","url":"/se/investerare/investera-i-sandvik/","id":129115,"current":false,"newTab":false,"items":[{"label":"Marknadsledande positioner","url":"/se/investerare/investera-i-sandvik/marknadsledande-positioner/","id":129116,"current":false,"newTab":false},{"label":"Solid plattform st\u00F6djer skifte mot tillv\u00E4xt","url":"/se/investerare/investera-i-sandvik/solid-plattform-st\u00F6djer-skifte-mot-tillv\u00E4xt/","id":129122,"current":false,"newTab":false,"items":[{"label":"Trender","url":"/se/investerare/investera-i-sandvik/solid-plattform-st\u00F6djer-skifte-mot-tillv\u00E4xt/trender/","id":129130,"current":false,"newTab":false}]},{"label":"Flexibilitet genom en cykel","url":"/se/investerare/investera-i-sandvik/flexibilitet-genom-en-cykel/","id":129136,"current":false,"newTab":false},{"label":"Aktie\u00E4garv\u00E4rde","url":"/se/investerare/investera-i-sandvik/aktie\u00E4garv\u00E4rde/","id":129137,"current":false,"newTab":false},{"label":"Finansiella m\u00E5l","url":"/se/investerare/investera-i-sandvik/finansiella-mal/","id":129138,"current":false,"newTab":false}]},{"label":"Finansiell information","url":"/se/investerare/finansiell-information/","id":129140,"current":false,"newTab":false,"items":[{"label":"V\u00E4gledning","url":"/se/investerare/finansiell-information/v\u00E4gledning/","id":129147,"current":false,"newTab":false},{"label":"Definitioner","url":"/se/investerare/finansiell-information/definitioner/","id":129194,"current":false,"newTab":false}]},{"label":"Uppl\u00E5ning och kreditv\u00E4rdering","url":"/se/investerare/uppl\u00E5ning-och-kreditv\u00E4rdering/","id":129148,"current":false,"newTab":false,"items":[{"label":"Skuldstruktur","url":"/se/investerare/uppl\u00E5ning-och-kreditv\u00E4rdering/skuldstruktur/","id":129150,"current":false,"newTab":false},{"label":"Uppl\u00E5ningsprogram","url":"/se/investerare/uppl\u00E5ning-och-kreditv\u00E4rdering/upplaningsprogram/","id":129157,"current":false,"newTab":false}]},{"label":"Sandvik-aktien","url":"/se/investerare/sandvik-aktien/","id":129200,"current":false,"newTab":false,"items":[{"label":"Aktienyckeltal","url":"/se/investerare/sandvik-aktien/aktienyckeltal/","id":129201,"current":false,"newTab":false},{"label":"ADR-programmet","url":"/se/investerare/sandvik-aktien/adr-programmet/","id":129202,"current":false,"newTab":false},{"label":"Utdelningsinformation","url":"/se/investerare/sandvik-aktien/utdelningsinformation/","id":129205,"current":false,"newTab":false},{"label":"Aktie\u00E4garstruktur","url":"/se/investerare/sandvik-aktien/aktieagarstruktur/","id":129210,"current":false,"newTab":false},{"label":"Aktiekalkylator","url":"/se/investerare/sandvik-aktien/aktiekalkylator/","id":129211,"current":false,"newTab":false},{"label":"Analytiker","url":"/se/investerare/sandvik-aktien/analytiker-och-estimat/","id":129212,"current":false,"newTab":false},{"label":"F\u00F6r\u00E4ndringar i aktiekapital","url":"/se/investerare/sandvik-aktien/f\u00F6r\u00E4ndringar-i-aktiekapital/","id":129213,"current":false,"newTab":false},{"label":"Index","url":"/se/investerare/sandvik-aktien/index/","id":129217,"current":false,"newTab":false}]},{"label":"Rapporter \u0026 Presentationer","url":"/se/investerare/rapporter-presentationer/","id":129218,"current":false,"newTab":false,"items":[{"label":"Del\u00E5rsrapporter","url":"/se/investerare/rapporter-presentationer/delarsrapporter/","id":129219,"current":false,"newTab":false},{"label":"\u00C5rsredovisningar","url":"/se/investerare/rapporter-presentationer/arsredovisningar/","id":129310,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma","url":"/se/investerare/rapporter-presentationer/\u00E5rsst\u00E4mma/","id":129311,"current":false,"newTab":false},{"label":"Kapitalmarknadsdag","url":"/se/investerare/rapporter-presentationer/kapitalmarknadsdagar/","id":129312,"current":false,"newTab":false},{"label":"H\u00E5llbarhetsrapporter","url":"/se/investerare/rapporter-presentationer/hallbarhetsrapporter/","id":129328,"current":false,"newTab":false}]},{"label":"Bolagsstyrning","url":"/se/investerare/bolagsstyrning/","id":129329,"current":false,"newTab":false,"items":[{"label":"Bolagsordning","url":"/se/investerare/bolagsstyrning/bolagsordning/","id":129358,"current":false,"newTab":false},{"label":"Bolagsst\u00E4mma","url":"/se/investerare/bolagsstyrning/bolagsstamma/\u00E5rsst\u00E4mma-2024/","id":129362,"current":false,"newTab":false,"items":[{"label":"\u00C5rsst\u00E4mma 2024","url":"/se/investerare/bolagsstyrning/bolagsstamma/\u00E5rsst\u00E4mma-2024/","id":145664,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2023","url":"/se/investerare/bolagsstyrning/bolagsstamma/2023-agm/","id":129365,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2022","url":"/se/investerare/bolagsstyrning/bolagsstamma/\u00E5rsst\u00E4mma-2022/","id":129392,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2021","url":"/se/investerare/bolagsstyrning/bolagsstamma/\u00E5rsst\u00E4mma-2021/","id":129425,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2020","url":"/se/investerare/bolagsstyrning/bolagsstamma/\u00E5rsst\u00E4mma-2020/","id":129481,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2019","url":"/se/investerare/bolagsstyrning/bolagsstamma/\u00E5rsst\u00E4mma-2019/","id":129520,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2018","url":"/se/investerare/bolagsstyrning/bolagsstamma/\u00E5rsst\u00E4mma-2018/","id":129543,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2017","url":"/se/investerare/bolagsstyrning/bolagsstamma/arsstamma-2017/","id":129571,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2016","url":"/se/investerare/bolagsstyrning/bolagsstamma/2016-agm/","id":129595,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2015","url":"/se/investerare/bolagsstyrning/bolagsstamma/arsstamma-2015/","id":129619,"current":false,"newTab":false},{"label":"\u00C5rsst\u00E4mma 2014","url":"/se/investerare/bolagsstyrning/bolagsstamma/2014/","id":129659,"current":false,"newTab":false},{"label":"Integritetspolicy","url":"/se/investerare/bolagsstyrning/bolagsstamma/integritetspolicy/","id":129803,"current":false,"newTab":false}]},{"label":"Valberedning","url":"/se/investerare/bolagsstyrning/valberedning/","id":129804,"current":false,"newTab":false,"items":[{"label":"Instruktion f\u00F6r valberedningen","url":"/se/investerare/bolagsstyrning/valberedning/instruktion-f\u00F6r-valberedningen/","id":129805,"current":false,"newTab":false}]},{"label":"Styrelse","url":"/se/investerare/bolagsstyrning/board-of-directors/","id":130827,"current":false,"newTab":false,"items":[{"label":"Om styrelsen","url":"/se/investerare/bolagsstyrning/board-of-directors/om-styrelsen/","id":138531,"current":false,"newTab":false},{"label":"Styrelseutskott","url":"/se/investerare/bolagsstyrning/board-of-directors/styrelseutskott/","id":138225,"current":false,"newTab":false},{"label":"Styrelsens arbete","url":"/se/investerare/bolagsstyrning/board-of-directors/styrelsens-arbete/","id":138229,"current":false,"newTab":false}]},{"label":"Auditor","url":"/se/investerare/bolagsstyrning/auditor/","id":129806,"current":false,"newTab":false},{"label":"Intern kontroll","url":"/se/investerare/bolagsstyrning/intern-kontroll/","id":129807,"current":false,"newTab":false},{"label":"Koncernledning","url":"/se/investerare/bolagsstyrning/group-executive-management/","id":128123,"current":false,"newTab":false},{"label":"Ers\u00E4ttningar","url":"/se/investerare/bolagsstyrning/ersattningar-till-styrelse-och-ledande-befattningshavare/","id":129810,"current":false,"newTab":false,"items":[{"label":"Riktlinjer f\u00F6r ers\u00E4ttning","url":"/se/investerare/bolagsstyrning/ersattningar-till-styrelse-och-ledande-befattningshavare/riktlinjer-f\u00F6r-ers\u00E4ttning/","id":129819,"current":false,"newTab":false}]},{"label":"Insiderhantering","url":"/se/investerare/bolagsstyrning/insider-management/","id":130551,"current":false,"newTab":false}]},{"label":"Riskhantering","url":"/se/investerare/riskhantering/","id":129823,"current":false,"newTab":false},{"label":"F\u00F6rv\u00E4rv","url":"/se/investerare/f\u00F6rv\u00E4rv/","id":129826,"current":false,"newTab":false},{"label":"Kapitalmarknadsdag","url":"/se/investerare/kapitalmarknadsdag/","id":130072,"current":false,"newTab":false},{"label":"Alleima b\u00F6rsnotering","url":"/se/investerare/alleima-b\u00F6rsnotering/","id":129831,"current":false,"newTab":false},{"label":"Pressmeddelanden","url":"/se/investerare/pressmeddelanden/","id":129829,"current":false,"newTab":false},{"label":"Kalender","url":"/se/investerare/kalender/","id":130047,"current":false,"newTab":false,"items":[{"label":"2024","url":"/se/investerare/kalender/2024/","id":145969,"current":false,"newTab":false},{"label":"2023","url":"/se/investerare/kalender/2023/","id":130049,"current":false,"newTab":false},{"label":"2022","url":"/se/investerare/kalender/2022/","id":145207,"current":false,"newTab":false}]},{"label":"Kontaktpersoner","url":"/se/investerare/kontaktpersoner/","id":129842,"current":false,"newTab":false}]},{"label":"Nyheter \u0026 Media","url":"/se/nyheter-och-media/","id":137536,"current":false,"newTab":false,"items":[{"label":"Nyheter fr\u00E5n koncernen","url":"/se/nyheter-och-media/nyheter/","id":119373,"current":false,"newTab":false},{"label":"Aff\u00E4rsomr\u00E5desnyheter","url":"/se/nyheter-och-media/aff\u00E4rsomr\u00E5desnyheter/","id":137741,"current":false,"newTab":false},{"label":"Kontaktpersoner","url":"/se/nyheter-och-media/kontaktpersoner/","id":138699,"current":false,"newTab":false},{"label":"Pressmaterial","url":"/se/nyheter-och-media/pressmaterial/","id":138701,"current":false,"newTab":false,"items":[{"label":"Bildbank","url":"/se/nyheter-och-media/pressmaterial/bildbank/","id":138718,"current":false,"newTab":false}]},{"label":"Tidning","url":"/se/nyheter-och-media/tidning/","id":138724,"current":false,"newTab":false},{"label":"Sociala medier","url":"/se/nyheter-och-media/sociala-medier/","id":138732,"current":false,"newTab":false}]},{"label":"Om oss","url":"/se/om-oss/","id":127774,"current":false,"newTab":false,"items":[{"label":"Sandvik i korthet","url":"/se/om-oss/sandvik-i-korthet/","id":127775,"current":false,"newTab":false,"items":[{"label":"Sandvik i siffror","url":"/se/om-oss/sandvik-i-korthet/sandvik-i-siffror/","id":127789,"current":false,"newTab":false},{"label":"Aff\u00E4rsmodell","url":"/se/om-oss/sandvik-i-korthet/aff\u00E4rsmodell/","id":127783,"current":false,"newTab":false,"items":[{"label":"Digitalisering","url":"/se/om-oss/sandvik-i-korthet/aff\u00E4rsmodell/digitalisering/","id":127889,"current":false,"newTab":false}]},{"label":"Varum\u00E4rken","url":"/se/om-oss/sandvik-i-korthet/varum\u00E4rken/","id":127787,"current":false,"newTab":false},{"label":"Historia","url":"/se/om-oss/sandvik-i-korthet/historia/","id":127802,"current":false,"newTab":false,"items":[{"label":"Grundaren av Sandvik","url":"/se/om-oss/sandvik-i-korthet/historia/grundaren-av-sandvik/","id":127805,"current":false,"newTab":false}]},{"label":"Ledningssystem","url":"/se/om-oss/sandvik-i-korthet/ledningssystem/","id":127867,"current":false,"newTab":false},{"label":"Pensionsstiftelse","url":"/se/om-oss/sandvik-i-korthet/sandviks-pensionsstiftelse/","id":144176,"current":false,"newTab":false}]},{"label":"Syfte och strategiska m\u00E5l","url":"/se/om-oss/syfte-och-strategiska-m\u00E5l/","id":127779,"current":false,"newTab":false,"items":[{"label":"Syfte","url":"/se/om-oss/syfte-och-strategiska-m\u00E5l/syfte/","id":127780,"current":false,"newTab":false}]},{"label":"Expertis och innovation","url":"/se/om-oss/expertis-och-innovation/","id":127871,"current":false,"newTab":false,"items":[{"label":"Innovation och FoU","url":"/se/om-oss/expertis-och-innovation/innovation/","id":127877,"current":false,"newTab":false},{"label":"Innovationspriser","url":"/se/om-oss/expertis-och-innovation/innovationspriser/","id":127880,"current":false,"newTab":false,"items":[{"label":"Haglund-medaljen","url":"/se/om-oss/expertis-och-innovation/innovationspriser/haglund-medaljen/","id":127883,"current":false,"newTab":false},{"label":"Sandvik Innovation Prize","url":"/se/om-oss/expertis-och-innovation/innovationspriser/sandvik-innovation-prize/","id":127886,"current":false,"newTab":false}]}]},{"label":"Aff\u00E4rsomr\u00E5den","url":"/se/om-oss/affarsomraden/","id":127892,"current":false,"newTab":false},{"label":"Industrier","url":"/se/om-oss/industrier/","id":127793,"current":false,"newTab":false,"items":[{"label":"Flyg","url":"/se/om-oss/industrier/flyg/","id":127796,"current":false,"newTab":false},{"label":"Fordon","url":"/se/om-oss/industrier/fordon/","id":127797,"current":false,"newTab":false},{"label":"Energi","url":"/se/om-oss/industrier/energi/","id":127798,"current":false,"newTab":false},{"label":"Verkstad","url":"/se/om-oss/industrier/verkstad/","id":127799,"current":false,"newTab":false},{"label":"Infrastruktur","url":"/se/om-oss/industrier/infrastruktur/","id":127800,"current":false,"newTab":false},{"label":"Gruvor","url":"/se/om-oss/industrier/gruvor/","id":127801,"current":false,"newTab":false}]},{"label":"Bolagsstyrning","url":"/se/om-oss/bolagsstyrning/","id":127790,"current":false,"newTab":false},{"label":"H\u00E5llbarhet","url":"/se/om-oss/h\u00E5llbarhet/","id":128819,"current":false,"newTab":false,"items":[{"label":"H\u00E5llbara l\u00F6sningar","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbara-l\u00F6sningar/","id":130616,"current":false,"newTab":false},{"label":"Nettonollutsl\u00E4pp","url":"/se/om-oss/h\u00E5llbarhet/nettonollutsl\u00E4pp/","id":130594,"current":false,"newTab":false,"items":[{"label":"Science Based Targets initiative (SBTi)","url":"/se/om-oss/h\u00E5llbarhet/nettonollutsl\u00E4pp/science-based-targets-initiative-sbti/","id":128002,"current":false,"newTab":false}]},{"label":"Cirkularitet","url":"/se/om-oss/h\u00E5llbarhet/cirkularitet/","id":130618,"current":false,"newTab":false},{"label":"Ekosystem","url":"/se/om-oss/h\u00E5llbarhet/ekosystem/","id":130617,"current":false,"newTab":false,"items":[{"label":"Milj\u00F6","url":"/se/om-oss/h\u00E5llbarhet/ekosystem/milj\u00F6/","id":127955,"current":false,"newTab":false}]},{"label":"Ansvarsfullt f\u00F6retagande","url":"/se/om-oss/h\u00E5llbarhet/ansvarsfullt-f\u00F6retagande/","id":130619,"current":false,"newTab":false},{"label":"M\u00E4nniskor och samh\u00E4llen","url":"/se/om-oss/h\u00E5llbarhet/m\u00E4nniskor-och-samh\u00E4llen/","id":130620,"current":false,"newTab":false,"items":[{"label":"H\u00E4lsa och s\u00E4kerhet","url":"/se/om-oss/h\u00E5llbarhet/m\u00E4nniskor-och-samh\u00E4llen/h\u00E4lsa-och-s\u00E4kerhet/","id":127961,"current":false,"newTab":false},{"label":"Samh\u00E4llsengagemang och sponsring","url":"/se/om-oss/h\u00E5llbarhet/m\u00E4nniskor-och-samh\u00E4llen/samh\u00E4llsengagemang-och-sponsring/","id":127971,"current":false,"newTab":false}]},{"label":"Framtidens industrier","url":"/se/om-oss/h\u00E5llbarhet/framtidens-industrier/","id":132409,"current":false,"newTab":false,"items":[{"label":"Gruvdrift i framtiden","url":"/se/om-oss/h\u00E5llbarhet/framtidens-industrier/gruvdrift-i-framtiden/","id":144398,"current":false,"newTab":false},{"label":"Bergbearbetning i framtiden","url":"/se/om-oss/h\u00E5llbarhet/framtidens-industrier/bergbearbetning-i-framtiden/","id":144402,"current":false,"newTab":false},{"label":"Tillverkningsindustrin i framtiden","url":"/se/om-oss/h\u00E5llbarhet/framtidens-industrier/tillverkningsindustrin-i-framtiden/","id":144406,"current":false,"newTab":false}]},{"label":"M\u00E5l","url":"/se/om-oss/h\u00E5llbarhet/m\u00E5l/","id":127902,"current":false,"newTab":false,"items":[{"label":"Cirkularitet","url":"/se/om-oss/h\u00E5llbarhet/m\u00E5l/cirkularitet/","id":127905,"current":false,"newTab":false},{"label":"Klimatf\u00F6r\u00E4ndring","url":"/se/om-oss/h\u00E5llbarhet/m\u00E5l/klimatf\u00F6r\u00E4ndring/","id":127911,"current":false,"newTab":false},{"label":"M\u00E4nniskan i fokus","url":"/se/om-oss/h\u00E5llbarhet/m\u00E5l/m\u00E4nniskan-i-fokus/","id":127916,"current":false,"newTab":false},{"label":"Fair play","url":"/se/om-oss/h\u00E5llbarhet/m\u00E5l/fair-play/","id":127921,"current":false,"newTab":false},{"label":"M\u00F6jligg\u00F6rare","url":"/se/om-oss/h\u00E5llbarhet/m\u00E5l/m\u00F6jligg\u00F6rare/","id":127924,"current":false,"newTab":false}]},{"label":"Globala \u00E5taganden","url":"/se/om-oss/h\u00E5llbarhet/globala-\u00E5taganden/","id":127985,"current":false,"newTab":false,"items":[{"label":"FN:s m\u00E5l f\u00F6r h\u00E5llbar utveckling","url":"/se/om-oss/h\u00E5llbarhet/globala-\u00E5taganden/index-over-fns-globala-mal/","id":127993,"current":false,"newTab":false}]},{"label":"Styrning och regelefterlevnad","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbarhetsstyrning/","id":127931,"current":false,"newTab":false,"items":[{"label":"Dubbel v\u00E4sentlighetsanalys","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbarhetsstyrning/vasentlighetsanalys/","id":127928,"current":false,"newTab":false},{"label":"Uppf\u00F6randekod","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbarhetsstyrning/uppf\u00F6randekod/","id":127932,"current":false,"newTab":false},{"label":"Leverant\u00F6rshantering","url":"/se/om-oss/h\u00E5llbarhet/h\u00E5llbarhetsstyrning/leverant\u00F6rshantering/","id":127964,"current":false,"newTab":false}]},{"label":"Rapporter och nyckeltal","url":"/se/om-oss/h\u00E5llbarhet/rapporter-och-nyckeltal/","id":128003,"current":false,"newTab":false,"items":[{"label":"GRI-index","url":"/se/om-oss/h\u00E5llbarhet/rapporter-och-nyckeltal/gri-index/","id":128005,"current":false,"newTab":false},{"label":"SASB-rapportering","url":"/se/om-oss/h\u00E5llbarhet/rapporter-och-nyckeltal/sasb-rapportering/","id":128006,"current":false,"newTab":false},{"label":"TCFD-rapportering","url":"/se/om-oss/h\u00E5llbarhet/rapporter-och-nyckeltal/tcfd-rapportering/","id":128007,"current":false,"newTab":false}]}]}]},{"label":"Kontakt","url":"/se/kontakt/","id":137790,"current":false,"newTab":false,"items":[{"label":"Adresser i Sverige","url":"/se/kontakt/adresser-i-sverige/","id":146210,"current":false,"newTab":false},{"label":"Kontaktformul\u00E4r","url":"/se/kontakt/kontaktformul\u00E4r/","id":137796,"current":false,"newTab":false}]}]}
+
+
+    {"popularSearches":"Popul\u00E4ra s\u00F6kningar","suggestedSearches":"Suggested searches","suggestedSearchesAPI":"/api/autocompleteapi/sv/search?query=","search":"Search","searchURL":"/se/s\u00F6k/","cancel":"cancel","clear":"clear","items":[]}
+
+		
+
+	
+
+
+
+    
+        
+            
+                Välkommen till Sandvik
+            
+        
+            
+                
+                    
+Vi använder vår expertis för att tillsammans med kunder skapa starkare och mer hållbara företag.
+
+
+
+
+
+	
+		Våra expertisområden
+			
+				Se våra expertisområden
+			
+	
+
+
+                
+            
+    
+        
+            
+
+
+
+        
+
+
+    
+
+
+
+
+
+
+
+
+
+	
+		
+			Senaste nyheterna
+		
+	
+	
+
+
+
+
+
+	
+		Alla nyheter och pressmeddelanden
+	
+
+
+
+
+	
+		
+	
+
+	
+
+	
+			
+				
+
+
+	
+
+
+		
+			
+					
+								Nyhet
+					
+					7 nov., 2023 09:51 CET
+				
+					
+						Sandvik har Sveriges bästa webbplats
+					
+				
+			
+
+				
+					
+
+
+				
+		
+
+				
+					Sandvik har Sveriges bästa webbplats
+				
+
+	
+
+			
+			
+				
+
+
+	
+
+
+		
+			
+					
+								Pressmeddelande
+					
+					3 nov., 2023 09:00 CET
+				
+					
+						Sandvik slutför förvärvet av mjukvaruleverantören esco GmbH
+					
+				
+			
+
+				
+					
+
+
+				
+		
+
+				
+					Sandvik slutför förvärvet av mjukvaruleverantören esco GmbH
+				
+
+	
+
+			
+			
+				
+
+
+	
+
+
+		
+			
+					
+								Nyhet
+					
+					2 nov., 2023 09:43 CET
+				
+					
+						Sandvik säkrar fossilfritt stål för framtida tillverkning av lastare och lastbilar
+					
+				
+			
+
+				
+					
+
+
+				
+		
+
+				
+					Sandvik säkrar fossilfritt stål för framtida tillverkning av lastare och lastbilar
+				
+
+	
+
+			
+	
+
+
+
+
+
+	
+		
+			
+					
+						Syfte och strategiska mål
+					
+				
+					
+						Ingenjörskap som förbättrar världen
+					
+						
+							
+Vi är visionärer som drivs av ambitionen att alltid hitta smartare lösningar och möjliggöra viktiga skiften.
+
+						
+				
+
+				
+					
+
+
+
+	
+		Läs mer
+			
+				Läs mer om vårt syfte och våra strategiska mål
+			
+	
+
+
+
+
+	
+		
+	
+
+
+				
+
+			
+			
+
+				
+
+
+
+
+			
+		
+	
+
+
+
+
+
+
+
+	
+					
+							
+								
+
+
+	
+
+			
+				
+
+
+			
+
+		
+			
+					Karriär
+				
+					
+						Bli en av oss!
+					
+				
+			
+
+				
+					
+När du blir del av vårt globala team får du uppleva en kultur som möjliggör viktiga skiften.
+
+				
+		
+
+				
+					Bli en av oss!
+				
+
+	
+
+							
+							
+								
+
+
+	
+
+			
+				
+
+
+			
+
+		
+			
+					Hållbarhet
+				
+					
+						Vår hållbara framtid
+					
+				
+			
+
+				
+					
+Vi vill vara en positiv kraft i utformningen av framtidens industrier och använda våra kunskaper för att lösa vår tids stora utmaningar.
+
+				
+		
+
+				
+					Vår hållbara framtid
+				
+
+	
+
+							
+					
+	
+
+
+
+
+    
+        
+
+
+
+
+
+	Kommande händelser
+
+		
+				
+					
+						
+							
+								
+									28
+									nov.
+								
+							
+							
+									
+										Kapitalmarknadsdag
+									
+
+								
+								
+							
+						
+					
+				
+				
+					
+						
+							
+								
+									1
+									jan.
+								
+							
+							
+									
+										Tyst period, Q4 2023
+									
+
+								
+								
+							
+						
+					
+				
+				
+					
+						
+							
+								
+									25
+									jan.
+								
+							
+							
+									
+										Delårsrapport, Q4 2023
+									
+
+								
+								
+							
+						
+					
+				
+		
+
+		
+			
+
+
+
+	
+		Alla händelser
+			
+				Alla händelser
+			
+	
+
+
+
+
+		
+
+
+        
+        
+
+
+
+
+        
+    
+
+
+
+	
+		
+			
+
+	
+Delårsrapport
+Se den senaste delårsrapporten
+ 
+
+			
+
+	
+Årsredovisning
+Läs årsredovisningen online eller ladda ner PDF
+
+		
+	
+
+
+
+
+	
+		
+			
+				Om Sandvik
+				Sandvik är en global, högteknologisk industrikoncern som tillhandahåller lösningar som förbättrar produktivitet, lönsamhet och hållbarhet inom tillverknings-, gruv- och infrastrukturindustrierna.
+			
+			
+						
+							
+								Sandvik i korthet
+								
+
+
+	
+		
+	
+
+							
+						
+						
+							
+								Affärsområden
+								
+
+
+	
+		
+	
+
+							
+						
+						
+							
+								Sandvik i siffror
+								
+
+
+	
+		
+	
+
+							
+						
+			
+		
+	
+
+
+
+
+
+
+
+	
+
+				
+						
+							
+
+
+		Expertis och innovation
+
+Vi har en bevisad förmåga att förbättra kunders produktivitet, lönsamhet och hållbarhet.
+		
+			
+
+
+
+	
+		Expertis och innovation
+	
+
+
+
+
+	
+		
+	
+
+
+		
+
+						
+						
+							
+
+
+		Meet Sandvik podcast
+
+Möt olika personer som ger sina perspektiv på Sandvik.
+		
+			
+
+
+
+	
+		Podcast (på engelska)
+	
+
+
+
+
+	
+		
+	
+
+
+		
+
+						
+						
+							
+
+
+		Lediga jobb
+
+Vi erbjuder karriärmöjligheter inom många olika jobbområden över hela världen.
+		
+			
+
+
+
+	
+		Lediga jobb
+	
+
+
+
+
+	
+		
+	
+
+
+		
+
+						
+				
+
+	
+
+
+
+
+
+
+
+	
+		
+			
+				
+			
+		
+
+			
+				
+						
+							
+								Kontakt
+							
+						
+						
+							
+								Om oss
+							
+						
+						
+							
+								Hållbarhet
+							
+						
+						
+							
+								Bolagsstyrning
+							
+						
+						
+							
+								Produkter & Tjänster
+							
+						
+						
+							
+								Karriär
+							
+						
+						
+							
+								Investerare
+							
+						
+						
+							
+								Nyheter & Media
+							
+						
+				
+			
+
+			
+				
+						
+							
+								Integritet
+							
+						
+						
+							
+								Inställningar för webbkakor
+							
+						
+						
+							
+								Om webbplatsen
+							
+						
+						
+							
+								Varumärken
+							
+						
+				
+			
+
+		
+
+			
+
+
+	
+
+
+	
+		
+	
+
+	Linkedin
+
+
+	
+
+
+	
+		
+	
+
+	Instagram
+
+
+	
+
+
+	
+		
+	
+
+	Youtube
+
+
+	
+
+
+	
+		
+	
+
+	Facebook
+			
+
+			
+				
+
+
+
+
+
+	
+		
+	
+
+	
+		Byt språk
+	
+
+
+
+			
+
+		
+
+		
+			
+				
+					© 2023 Copyright © Sandvik AB; (publ)  Box 510, 101 30 Stockholm, Sverige  Tel 08 456 11 00
+				
+			
+
+
+				
+					Andra Sandvik-webbplatser
+					
+
+
+	
+		
+	
+
+				
+		
+	
+
+
+
+				
+				
+		
+
+document.addEventListener('DOMContentLoaded',function(){if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}})
+
+
+
+		
+
+		
+			
+		
+	
+
+
+
+

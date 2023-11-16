@@ -1,0 +1,30 @@
+[
+  { "price": 51.77, "rating": 3, "title": "A Light in the ..." },
+  { "price": 53.74, "rating": 1, "title": "Tipping the Velvet" },
+  { "price": 50.1, "rating": 1, "title": "Soumission" },
+  { "price": 47.82, "rating": 4, "title": "Sharp Objects" },
+  { "price": 54.23, "rating": 5, "title": "Sapiens: A Brief History ..." },
+  { "price": 22.65, "rating": 1, "title": "The Requiem Red" },
+  { "price": 33.34, "rating": 4, "title": "The Dirty Little Secrets ..." },
+  { "price": 17.93, "rating": 3, "title": "The Coming Woman: A ..." },
+  { "price": 22.6, "rating": 4, "title": "The Boys in the ..." },
+  { "price": 52.15, "rating": 1, "title": "The Black Maria" },
+  {
+    "price": 13.99,
+    "rating": 2,
+    "title": "Starving Hearts (Triangular Trade ..."
+  },
+  { "price": 20.66, "rating": 4, "title": "Shakespeare's Sonnets" },
+  { "price": 17.46, "rating": 5, "title": "Set Me Free" },
+  {
+    "price": 52.29,
+    "rating": 5,
+    "title": "Scott Pilgrim's Precious Little ..."
+  },
+  { "price": 35.02, "rating": 5, "title": "Rip it Up and ..." },
+  { "price": 57.25, "rating": 3, "title": "Our Band Could Be ..." },
+  { "price": 23.88, "rating": 1, "title": "Olio" },
+  { "price": 37.59, "rating": 1, "title": "Mesaerion: The Best Science ..." },
+  { "price": 51.33, "rating": 2, "title": "Libertarianism for Beginners" },
+  { "price": 45.17, "rating": 2, "title": "It's Only the Himalayas" }
+]

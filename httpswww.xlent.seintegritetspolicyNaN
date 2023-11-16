@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+
+    
+    
+    Integritetspolicy
+    
+        
+
+    
+    
+    
+    
+
+    
+
+    
+
+        
+        
+
+    
+        
+    
+
+    
+    
+    
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NJ8CQSS');
+    
+
+
+    
+
+
+    {
+        "@context" : "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.xlent.se",
+        "logo": "https://www.xlent.se/images/logo-white.svg"
+    }
+
+
+
+    
+
+
+
+    
+    
+    
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ8CQSS"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    
+    
+
+
+        
+
+    
+        
+            
+                
+            
+
+            
+                
+            
+        
+
+        
+                        
+                            
+                                
+                                    Erbjudande
+                                
+                                
+                                    
+                                
+                            
+                            
+                                
+                                        
+                                            
+                                                Business Intelligence & Analytics
+                                            
+                                        
+                                        
+                                            
+                                                CRM & Verksamhetssystem
+                                            
+                                        
+                                        
+                                            
+                                                Cyber Security
+                                            
+                                        
+                                        
+                                            
+                                                Ledarskap & Förändring
+                                            
+                                        
+                                        
+                                            
+                                                Strategi & Digitalisering
+                                            
+                                        
+                                        
+                                            
+                                                Systemutveckling & Integration 
+                                            
+                                        
+
+                                
+                            
+                        
+                        
+                            
+                                Kundcase
+                            
+                        
+                        
+                            
+                                Om oss
+                            
+                        
+                        
+                            
+                                Kontor
+                            
+                        
+                        
+                            
+                                Aktuellt
+                            
+                        
+                        
+                            
+                                Jobba med oss
+                                
+                            
+                        
+            
+                
+                    Sök
+                    
+                
+            
+        
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+            Integritetspolicy
+
+            för XLENT
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+            
+
+
+        Bakgrund
+
+    Från och med den 25:e maj 2018 har EUs nya regelverk för behandling av personuppgifter börja tillämpas i medlemsstaterna. Regelverket innebär förändringar för de som behandlar personuppgifter. Dataskyddsförordningen gäller som lag i Sverige och ersätter personuppgiftslagen. Det är viktigt att poängtera att dataskyddsförordningen innehåller stora förändringar och vissa helt nya bestämmelser. Den personuppgiftsansvariges ansvar och skyldigheter förtydligas och utökas och de registrerades rättigheter förstärks.
+
+
+
+        Syfte
+
+    Syftet med denna policy är att du skall förstå hur vi inom XLENT gör med dina personuppgifter och vilka rättigheter du har. Enligt svensk och europeisk dataskyddslagstiftning är det vår skyldighet att informera om detta. Förtroendet bygger på respekt och skydd för den personliga integriteten.
+XLENT ska behandla den information som våra kunder eller anställda anförtror oss på ett varsamt och ansvarsfullt sätt. I alla sammanhang där personuppgifter eller annan viktig information kan komma att behandlas av XLENT, eller av någon annan, för XLENTs räkning, ska alla rimliga och lämpliga åtgärder vidtas för att skydda personuppgifterna från obehörig åtkomst, vidarespridning, ändring och förstörelse.
+XLENT ska lämna korrekt information om hur personuppgifterna kommer att användas vid de tillfälle koncernen samlar in personuppgifter. Sådan information ska innehålla de uppgifter som krävs enligt Dataskyddslagstiftningen.
+
+
+
+        Behandling av personuppgifter
+
+    Respektive bolag inom XLENT-koncernen har att säkerställa, via upprättande av härför erforderliga policys och instruktioner, att verksamheternas lagring och behandling av kunders och leverantörers personuppgifter, anställdas personuppgifter, samt andra aktörers personuppgifter, sker i överenstämmelse med vid var tid gällande lagkrav.
+
+
+
+        Utgångspunkter för behandling av Personuppgifter inom XLENT
+
+    XLENT ska följa vid var tid gällande Dataskyddslagstiftning vid behandling av personuppgifter. Utöver Dataskyddslagstiftningen finns det regler om hantering av personuppgifter i andra lagar och regelverk som har företräde framför Dataskyddslagstiftningen.
+
+
+
+        Grundläggande principer för XLENTs personuppgiftsbehandling
+
+    XLENT ska endast behandla personuppgifter på ett lagligt, korrekt och öppet sätt i förhållande till den registrerade. Detta innebär bl.a. att all personuppgiftsbehandling ska följa följande grundläggande principer:
+
+Laglig grund: Varje behandling av personuppgifter ska utföras med stöd av en dokumenterad laglig grund
+Ändamålsbegränsning: Uppgifterna ska samlas in för särskilt, uttryckligen angivna ändamål och får inte senare behandlas på ett oförenligt sätt
+Uppgiftsminimering: Endast personuppgifter som är adekvata, relevanta och inte för omfattande i förhållande till ändamålet ska samlas in
+Korrekthet: Uppgifterna ska vara korrekta och uppdaterade och det ska vara möjligt att spåra ändringar
+Lagringsminimering: Uppgifterna får inte förvaras längre än vad som krävs i förhållande till ändamålet
+Konfidentialitet: Personuppgifter ska skyddas av lämpliga tekniska och organisatoriska säkerhetsåtgärder för att förhindra obehörig eller otillåten behandling och förlust, förstöring eller förvanskning av uppgifterna.
+
+
+
+
+        Behandlingen av personuppgifter är endast laglig om minst ett av följande sex villkor är uppfyllda:
+
+    
+Den registrerade har lämnat sitt samtycke till att dennes personuppgifter behandlas för ett eller flera specifika ändamål.
+Behandlingen är nödvändig för att fullgöra ett avtal i vilket den registrerade är part eller för att vidta åtgärder på begäran av den registrerade innan ett sådant avtal ingås.
+Behandlingen är nödvändig för att fullgöra en rättslig förpliktelse som åvilar den personuppgiftsansvarige.
+Behandlingen är nödvändig för att skydda intressen som är av grundläggande betydelse för den registrerade eller för en annan fysisk person.
+Behandlingen är nödvändig för att utföra en uppgift av allmänt intresse eller som ett led i den personuppgiftsansvariges myndighetsutövning.
+Behandlingen är nödvändig för ändamål som rör den personuppgiftsansvariges eller en tredje parts berättigade intressen, om inte den registrerades intressen eller grundläggande rättigheter och friheter väger tyngre och kräver skydd av personuppgifter, särskilt när den registrerade är ett barn.
+
+
+
+
+        Laglig grund vid direktmarknadsföring
+
+    Vid riktad marknadsföring eller profilering ska samtycke inhämtas, om annan laglig grund saknas. Det kan dock finnas ett generellt berättigat intresse av att marknadsföra sina tjänster. Detta innebär att beroende på omständigheterna, kan vissa marknadsföringsåtgärder vidtas utan samtycke och med stöd av en intresseavvägning.
+Detta gäller under förutsättning att bolagets berättigade intresse överväger de registrerades intresse av att inte bli föremål för sådan behandling/marknadsföring.
+Marknadsföringsåtgärder med stöd av intresseavvägning kräver under alla omständigheter en noggrann bedömning, som inbegriper huruvida den registrerade vid tidpunkten för inhämtandet av personuppgifter och i samband med detta rimligen kan förvänta sig att en uppgiftsbehandling för detta ändamål kan komma att ske.
+När intresseavvägning tillämpas ska detta dokumenteras och det ska anges i informationstexten till de registrerade vilket berättigat intresse som bolaget stödjer sig på. I de fall samtycke behöver inhämtas ska det vara frivilligt och specifikt, dvs. gälla en särskild behandling med ett särskilt ändamål.
+
+Allmänt om laglig grund
+Laglig grund vid direktmarknadsföring
+Laglig grund för personuppgiftsbehandling om anställda
+Överföring av personuppgifter till tredje land
+
+
+
+
+        Den registrerades rättigheter
+
+    När bolag inom XLENT samlar in personuppgifter ska information lämnas till de personer vars personuppgifter samlas in. Sådan information ska innehålla de uppgifter som krävs enligt Dataskyddslagstiftningen och åtminstone:
+
+Den personuppgiftsansvariges identitet, dvs vilken juridisk enhet som är personuppgiftsansvarig, samt kontaktuppgifter
+Ändamål och rättslig grund för behandlingen
+Mottagare som får ta del av informationen
+Uppgift om eventuell överföring till tredje land
+Lagringstid alternativt kriterier för gallring
+Rätten att invända mot behandling eller återta samtycke
+Rätten att lämna klagomål till tillsynsmyndighet
+Förekomst av automatiserade beslut, profilering
+
+Alla individer har rätt att kostnadsfritt få ta del av de personuppgifter som bolag inom XCG har registrerat om denne. Om en person vill veta vilka uppgifter som finns registrerade om sig, ska personen inkomma med en skriftlig och egenhändigt undertecknad begäran. Svaret skickas till den registrerades folkbokföringsadress.
+
+
+
+        Den registrerade har även rätt att få:
+
+    
+Felaktiga personuppgifter rättade eller kompletterade.
+Få sina personuppgifter raderade (“bli bortglömd ”) om samtycke återkallas och ingen annan rättslig grund finns för behandlingen av personuppgifterna eller de inte längre är nödvändiga för det ändamål de samlats in för.
+Den registrerade har rätt att invända mot behandling, om det inte kan påvisas att det finns lagligt tvång eller berättigade skäl som väger tyngre än den registrerades rättigheter. Exempel på behandling kan vara segmentering eller riktad marknadsföring.
+Den registrerade har rätt att få behandlingarna av sina personuppgifter begränsade, exempelvis under tiden en utredning om en viss behandling eller personuppgifternas korrekthet pågår. Begränsning och invändning hanteras genom markering, blockering och/eller radering i berörda register.
+Den registrerade har rätt att begära att de uppgifter man själv lämnat flyttas till en annan part (dataportabilitet).
+
+
+
+
+        Gallring av personuppgifter
+
+    Enligt Dataskyddslagstiftningen får personuppgifter inte sparas längre än vad som är nödvändigt för de ändamål för vilka uppgifterna behandlas. Huvudregeln inom XLENT är därför att personuppgifter som det inte längre finns behov av för att uppfylla ändamålet med behandlingen ska gallras.Om det finns andra lagar och regelverk som kräver lagring av personuppgifter under viss tid, såsom i t.ex. i skatte-, bokförings- eller penningtvättslagstiftningen gäller sådana bestämmelser före Dataskyddslagstiftningen. Av bokföringslagen framgår exempelvis att räkenskapsinformation ska sparas i sju år från det år då räkenskapsåret avslutades.
+XLENT har ett ansvar för att upprätthålla ett övergripande regelverk för gallring av personuppgifter.
+
+
+
+        Cookies
+
+    Vi använder cookies på xlent.se för att förbättra upplevelsen för besökaren. Det gör vi genom att se användarens beteende på webbplatsen och sammanställa och mäta anonym statistik (Via Google Analytics & Google Tag Manager) om hur webbplatsen används. 
+En cookie är en liten textfil som sparas på besökarens enhet. Vi gör detta i syfte att kunna förbättra webbplatsen genom att mäta användandet. Det finns två typer av cookies: 
+En permanent cookie ligger kvar på din enhet under en bestämd tid.
+En sessioncookie lagras tillfälligt i minnet på din enhet under tiden besökaren är inne på en webbplats och försvinner när din webbläsare stängs av.
+Du kan när som helst stänga av dina lagrade cookies. Det gör du i webbläsarens säkerhetsinställningar.
+
+
+
+        Utlämnande av Personuppgifter till parter med eget personuppgiftsansvar
+
+    I de fall personuppgifter överförs till annan extern part, som har eget personuppgiftsansvar, måste det finnas en laglig grund för sådan överföring. Sådan laglig grund kan exempelvis vara att överföringen utgör en rättslig skyldighet, eller ett kundavtal som ger rätt att överföra uppgifterna.
+
+
+
+        Personuppgiftsansvarig XLENT
+
+    XLENTs styrelse och styrelsen i de personuppgiftsansvariga bolagen ansvarar för att säkerställa att uppföljning och kontroll av efterlevnaden av denna policy sker.
+
+
+
+        Klagomål
+
+    Om du som fysisk person anser att vi behandlar dina personuppgifter i strid med gällande dataskyddslagstiftning bör du anmäla detta till oss så fort som möjligt. Du kan även vända dig direkt till Datainspektionen och lämna in ditt klagomål.
+
+
+
+        Kontaktuppgifter
+
+    XLENT AB
+Dataskyddsansvarig
+Regeringsgatan 67
+111 56 STOCKHOLM
+
+Epost: gdpr@xlent.se
+
+            
+
+
+    
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+    
+            Vi skapar starka kundupplevelser, bygger hållbara digitala lösningar och stöttar organisationer i förändring. Tillsammans förverkligar vi idéer – och det gör vi på många olika sätt.
+
+        
+            Kontakt
+            XLENT Sverige
+            info@xlent.se
+            08-519 510 00
+                XLENT Norge
+        
+
+        
+            
+                
+            
+            Copyright © XLENT 2023
+        
+
+            
+                    
+                    
+                    
+            
+
+        
+            Part of Xlent Consulting Group
+            Cookies
+            Integritetspolicy
+        
+
+    
+
+
+
+
+    
+
+

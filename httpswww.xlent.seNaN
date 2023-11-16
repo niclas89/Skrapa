@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+
+
+    
+    
+    XLENT
+    
+        
+
+    
+    
+    
+    
+
+    
+
+    
+
+        
+        
+
+    
+        
+    
+
+    
+    
+    
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NJ8CQSS');
+    
+
+
+    
+
+
+    {
+        "@context" : "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.xlent.se",
+        "logo": "https://www.xlent.se/images/logo-white.svg"
+    }
+
+
+
+    
+
+
+
+    
+    
+    
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ8CQSS"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    
+    
+
+
+        
+
+    
+        
+            
+                
+            
+
+            
+                
+            
+        
+
+        
+                        
+                            
+                                
+                                    Erbjudande
+                                
+                                
+                                    
+                                
+                            
+                            
+                                
+                                        
+                                            
+                                                Business Intelligence & Analytics
+                                            
+                                        
+                                        
+                                            
+                                                CRM & Verksamhetssystem
+                                            
+                                        
+                                        
+                                            
+                                                Cyber Security
+                                            
+                                        
+                                        
+                                            
+                                                Ledarskap & Förändring
+                                            
+                                        
+                                        
+                                            
+                                                Strategi & Digitalisering
+                                            
+                                        
+                                        
+                                            
+                                                Systemutveckling & Integration 
+                                            
+                                        
+
+                                
+                            
+                        
+                        
+                            
+                                Kundcase
+                            
+                        
+                        
+                            
+                                Om oss
+                            
+                        
+                        
+                            
+                                Kontor
+                            
+                        
+                        
+                            
+                                Aktuellt
+                            
+                        
+                        
+                            
+                                Jobba med oss
+                                
+                            
+                        
+            
+                
+                    Sök
+                    
+                
+            
+        
+    
+
+
+
+
+
+    
+
+
+
+        
+            
+        
+
+
+
+    
+
+            Smarta lösningar och lokal expertis för organisationer i utveckling
+
+
+            
+                
+    
+            
+                Utforska lediga tjänster 
+            
+    
+
+                
+
+            
+    
+
+
+    
+
+
+
+
+
+
+
+    
+        
+            
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+        
+
+        
+                Vi är med och formar det nya digitala landskapet
+
+                Vi skapar starka kundupplevelser, bygger morgondagens digitala lösningar och stöttar organisationer i förändring för att förverkliga våra kunders idéer. Vi hjälper till att koppla ihop verksamhet och teknik och det gör vi på många olika sätt. 
+
+                
+                    
+    
+            
+                Läs mer om oss 
+            
+    
+
+                    
+
+                
+
+        
+    
+
+
+
+
+
+
+    
+        
+                Våra erbjudanden
+
+
+                
+                    
+                        Se alla erbjudanden
+                        
+                    
+                
+
+        
+
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Business Intelligence & Analytics
+                    Läs mer: Business Intelligence & Analytics
+                
+            
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    CRM & Verksamhetssystem
+                    Läs mer: CRM & Verksamhetssystem
+                
+            
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Cyber Security
+                    Läs mer: Cyber Security
+                
+            
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Ledarskap & Förändring
+                    Läs mer: Ledarskap & Förändring
+                
+            
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Strategi & Digitalisering
+                    Läs mer: Strategi & Digitalisering
+                
+            
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Systemutveckling & Integration 
+                    Läs mer: Systemutveckling & Integration 
+                
+            
+
+    
+
+
+
+
+    
+        
+            
+
+
+
+        
+            
+        
+
+
+
+        
+
+        
+                Utvecklas tillsammans med oss
+
+                Om du vill ha en spännande och utmanande karriär inom IT-branschen, då kan XLENT vara rätt plats för dig! Som konsult hos oss får du möjlighet att vara med och påverka, växa och utvecklas inom ditt område – och dessutom utforska olika branscher genom spännande uppdrag!
+
+                
+                    
+    
+            
+                Jobba med oss 
+            
+    
+
+                    
+
+                
+
+        
+    
+
+
+
+
+
+
+    
+        Utvalda case
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Global utrullning av budget- och prognosmodell
+                    Se case: Global utrullning av budget- och prognosmodell
+                
+            
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Metodik för hållbar helhetslösning av integration 
+                    Se case: Metodik för hållbar helhetslösning av integration 
+                
+            
+            
+                
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+                
+                    Golfanpassat verksamhetssystem
+                    Se case: Golfanpassat verksamhetssystem
+                
+            
+    
+
+
+
+
+    
+            Våra kontor
+    
+
+    
+            
+
+                    
+
+                
+                    Borlänge
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Gävle
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Göteborg
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Hudiksvall
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Härnösand
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Jönköping
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Kristianstad
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Linköping
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Luleå
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Malmö
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Norrköping
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Stockholm
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Sundsvall
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Umeå
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Örnsköldsvik
+                    
+                
+
+            
+            
+
+                    
+
+                
+                    Östersund
+                    
+                
+
+            
+    
+
+
+
+
+
+    
+        
+            
+                Aktuellt
+
+                    Nyfiken på vad som händer på XLENT? Här kan du läsa våra senaste nyheter, insikter och se kommande events.
+            
+
+
+                
+
+                
+
+                
+                    
+                        Se allt inom Aktuellt
+                        
+                    
+                
+        
+    
+
+
+
+
+    
+
+
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+        
+
+
+
+    
+        Spanar ni också mot framtiden? 
+            Har ni spännande planer för er verksamhet men behöver stöd med kompetens inom IT- eller verksamhetsutveckling? Kontakta något av våra team så hjälper vi er!
+
+            
+                
+    
+            
+                Kontakta oss 
+            
+    
+
+                
+
+            
+    
+
+
+
+
+    
+    
+
+    
+
+
+    
+            Vi skapar starka kundupplevelser, bygger hållbara digitala lösningar och stöttar organisationer i förändring. Tillsammans förverkligar vi idéer – och det gör vi på många olika sätt.
+
+        
+            Kontakt
+            XLENT Sverige
+            info@xlent.se
+            08-519 510 00
+                XLENT Norge
+        
+
+        
+            
+                
+            
+            Copyright © XLENT 2023
+        
+
+            
+                    
+                    
+                    
+            
+
+        
+            Part of Xlent Consulting Group
+            Cookies
+            Integritetspolicy
+        
+
+    
+
+
+
+
+    
+
+
